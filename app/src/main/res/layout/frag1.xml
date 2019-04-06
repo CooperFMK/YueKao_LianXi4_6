@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+          <com.jcodecraeer.xrecyclerview.XRecyclerView
+              android:id="@+id/rec_id"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"/>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:background="#04e6ed"
+         android:orientation="horizontal"
+         >
+          <CheckBox
+              android:id="@+id/frag_CheckBox"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:text="￥:"
+              android:textColor="#FF00"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/frag_zong"
+              android:text="111"
+              android:textColor="#FF00"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+     </LinearLayout>
+
+</LinearLayout>
